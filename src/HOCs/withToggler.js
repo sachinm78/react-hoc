@@ -3,12 +3,10 @@ import React from "react"
 // and returns a new component wrapping the given component
 // and "supercharging" it by giving it some extra abilities
 
-function withToggler(component) {
+export function withToggler(component) {
     return function(props) {
-        return (
-            <Toggler />
-        )
+        // return (
+        //     <Toggler />
+        // )
     }
 }
-
-export default withToggler

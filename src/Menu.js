@@ -1,4 +1,5 @@
 import React, {Component} from "react"
+import {withToggler} from "./HOCs/withToggler"
 
 class Menu extends Component {
     state = {
@@ -29,4 +30,4 @@ class Menu extends Component {
     }
 }
 
-export default Menu
+export default withToggler(Menu)
