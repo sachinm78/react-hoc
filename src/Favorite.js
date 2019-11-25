@@ -16,5 +16,5 @@ function Favorite(props) {
     ) 
 }
 
-const SuperchargedFavoriteComponent = withToggler(Favorite)
-export default SuperchargedFavoriteComponent
+
+export default withToggler(Favorite, {defaultOnValue: false})
