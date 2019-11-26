@@ -1,5 +1,5 @@
-import React from "react"
-import {withToggler} from "./HOCs/withToggler"
+import React, {Component} from "react"
+import Toggler from "./Toggler"
 
 function Favorite(props) {
     return (
@@ -16,5 +16,4 @@ function Favorite(props) {
     ) 
 }
 
-
-export default withToggler(Favorite, {defaultOnValue: false})
+export default Favorite

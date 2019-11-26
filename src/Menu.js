@@ -1,5 +1,5 @@
 import React from "react"
-import {withToggler} from "./HOCs/withToggler"
+// import {withToggler} from "./HOCs/withToggler"
 
 function Menu(props) {
     return (
@@ -16,4 +16,4 @@ function Menu(props) {
     ) 
 }
 
-export default withToggler(Menu, {defaultOnValue: true})
+export default Menu
