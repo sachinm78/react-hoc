@@ -1,8 +1,8 @@
 import {useState} from "react"
 
-function useToggler() {
+function useToggler(defaultOnValue) {
     // Create the state
-    const [isToggledOn, setIsToggledOn] = useState(false)
+    const [isToggledOn, setIsToggledOn] = useState(defaultOnValue)
     
     // Create a function for easily flipping the isToggledOn value
     function toggle() {

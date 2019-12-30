@@ -3,7 +3,7 @@ import Toggler from "./Toggler"
 import useToggler from "./useToggler"
 
 function Favorite(props) {
-    const [on, toggle] = useToggler()
+    const [on, toggle] = useToggler(false)
     
     return (
         <div>
