@@ -10,7 +10,7 @@ function useToggler() {
     }
     
     // Return something useful for whatever component will be using this hook
-    return {isToggledOn, toggle}
+    return [isToggledOn, toggle]
 }
 
 export default useToggler
